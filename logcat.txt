@@ -1,0 +1,457 @@
+2026-06-11 18:55:23.881  6724-6724  nativeloader            com.example.aimusicplayer            D  Configuring clns-9 for other apk /data/app/~~8cNurei8fZQsJxTCqigcnA==/com.example.aimusicplayer-O4pR1rwb9j6VDwc6dZHIlA==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~8cNurei8fZQsJxTCqigcnA==/com.example.aimusicplayer-O4pR1rwb9j6VDwc6dZHIlA==/lib/x86_64:/data/app/~~8cNurei8fZQsJxTCqigcnA==/com.example.aimusicplayer-O4pR1rwb9j6VDwc6dZHIlA==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.aimusicplayer
+2026-06-11 18:55:23.883  6724-6724  CompatChangeReporter    com.example.aimusicplayer            D  Compat change id reported: 202956589; UID 10238; state: ENABLED
+2026-06-11 18:55:23.897  6724-6724  GraphicsEnvironment     com.example.aimusicplayer            V  Currently set values for:
+2026-06-11 18:55:23.897  6724-6724  GraphicsEnvironment     com.example.aimusicplayer            V    angle_gl_driver_selection_pkgs=[]
+2026-06-11 18:55:23.897  6724-6724  GraphicsEnvironment     com.example.aimusicplayer            V    angle_gl_driver_selection_values=[]
+2026-06-11 18:55:23.897  6724-6724  GraphicsEnvironment     com.example.aimusicplayer            V  com.example.aimusicplayer is not listed in per-application setting
+2026-06-11 18:55:23.897  6724-6724  GraphicsEnvironment     com.example.aimusicplayer            V  No special selections for ANGLE, returning default driver choice
+2026-06-11 18:55:23.898  6724-6724  GraphicsEnvironment     com.example.aimusicplayer            V  Neither updatable production driver nor prerelease driver is supported.
+2026-06-11 18:55:24.004  6724-6788  DisplayManager          com.example.aimusicplayer            I  Choreographer implicitly registered for the refresh rate.
+2026-06-11 18:55:24.046  6724-6788  GFXSTREAM               com.example.aimusicplayer            I  [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+2026-06-11 18:55:24.047  6724-6788  GFXSTREAM               com.example.aimusicplayer            I  [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+2026-06-11 18:55:24.048  6724-6788  libc                    com.example.aimusicplayer            W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-06-11 18:55:24.052  6724-6788  HWUI                    com.example.aimusicplayer            W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2026-06-11 18:55:24.052  6724-6788  HWUI                    com.example.aimusicplayer            W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2026-06-11 18:55:24.154  6724-6724  CompatChangeReporter    com.example.aimusicplayer            D  Compat change id reported: 309578419; UID 10238; state: ENABLED
+2026-06-11 18:55:24.226  6724-6724  CompatChangeReporter    com.example.aimusicplayer            D  Compat change id reported: 349153669; UID 10238; state: ENABLED
+2026-06-11 18:55:24.227  6724-6724  HWUI                    com.example.aimusicplayer            W  Unknown dataspace 0
+2026-06-11 18:55:24.241  6724-6793  libc                    com.example.aimusicplayer            W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-06-11 18:55:24.422  6724-6724  ExoPlayerImpl           com.example.aimusicplayer            I  Init c756d5 [AndroidXMedia3/1.5.1] [emu64xa16k, sdk_gphone16k_x86_64, Google, 37]
+2026-06-11 18:55:24.506  6724-6724  AudioSystem             com.example.aimusicplayer            D  onNewService: media.audio_policy service obtained 0x722659cd6390
+2026-06-11 18:55:24.509  6724-6724  AudioSystem             com.example.aimusicplayer            D  getService: IAudioPolicyService retrieved: 0x722659cd6390  cached: 0x722659cd6390
+2026-06-11 18:55:24.529  6724-6724  e.aimusicplayer         com.example.aimusicplayer            I  hiddenapi: Accessing hidden method Landroid/media/AudioTrack;->getLatency()I (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/media3/exoplayer/audio/AudioTrackPositionTracker; (domain=app, TargetSdkVersion=35) using reflection: allowed
+2026-06-11 18:55:24.640  6724-6724  AudioSystem             com.example.aimusicplayer            D  onNewServiceWithAdapter: media.audio_flinger service obtained 0x722639c68a00
+2026-06-11 18:55:24.642  6724-6724  AudioSystem             com.example.aimusicplayer            D  getService: IAudioFlingerService retrieved: 0x722659cd7330  IAudioFlinger cached: 0x722639c68a00
+2026-06-11 18:55:24.725  6724-6724  WindowOnBackDispatcher  com.example.aimusicplayer            D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@f1cf266
+2026-06-11 18:55:24.922  6724-6728  e.aimusicplayer         com.example.aimusicplayer            I  Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals(long)
+2026-06-11 18:55:25.187  6724-6724  VRI[MainActivity]       com.example.aimusicplayer            D  WindowInsets changed: 1080x2424 statusBars:[0,142,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,174,0,84] 
+2026-06-11 18:55:25.204  6724-6724  Surface                 com.example.aimusicplayer            I  Creating surface for consumer unnamed-6724-0 with slotExpansion=1 for 64 slots
+2026-06-11 18:55:25.206  6724-6724  Surface                 com.example.aimusicplayer            I  Creating surface for consumer VRI[MainActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+2026-06-11 18:55:25.370  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ currentSong collector: song=null, metaDur=nulls
+2026-06-11 18:55:25.370  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=null, dur=0ms, bar=none, playing=false, pos=0ms
+2026-06-11 18:55:25.380  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=null, dur=0ms, bar=none, playing=false, pos=0ms
+2026-06-11 18:55:25.397  6724-6791  HWUI                    com.example.aimusicplayer            I  Davey! duration=1093ms; Flags=1, FrameTimelineVsyncId=2095298, IntendedVsync=36822786837406, Vsync=36823270170720, InputEventId=0, HandleInputStart=36823276318300, AnimationStart=36823276336500, PerformTraversalsStart=36823276359800, DrawStart=36823819401900, FrameDeadline=36822803504072, FrameStartTime=36823275762700, FrameInterval=16666666, WorkloadTarget=16666666, AnimationTime=36823270170720, SyncQueued=36823820230500, SyncStart=36823862698600, IssueDrawCommandsStart=36823862888200, SwapBuffers=36823869427200, FrameCompleted=36823922645700, DequeueBufferDuration=28700, QueueBufferDuration=340000, GpuCompleted=36823922645700, SwapBuffersCompleted=36823919612200, DisplayPresentTime=0, CommandSubmissionCompleted=36823869427200, 
+2026-06-11 18:55:25.403  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ isPlaying collector: playing=false, pos=0ms, dur=0ms
+2026-06-11 18:55:25.406  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=null, dur=0ms, bar=none, playing=false, pos=0ms
+2026-06-11 18:55:25.483  6724-6804  HWUI                    com.example.aimusicplayer            I  Using FreeType backend (prop=Auto)
+2026-06-11 18:55:25.491  6724-6724  Choreographer           com.example.aimusicplayer            I  Skipped 39 frames!  The application may be doing too much work on its main thread.
+2026-06-11 18:55:25.588  6724-6724  System.err              com.example.aimusicplayer            W  SLF4J(W): No SLF4J providers were found.
+2026-06-11 18:55:25.588  6724-6724  System.err              com.example.aimusicplayer            W  SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+2026-06-11 18:55:25.589  6724-6724  System.err              com.example.aimusicplayer            W  SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+2026-06-11 18:55:26.025  6724-6724  e.aimusicplayer         com.example.aimusicplayer            W  Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+                                                                                                    Common causes for lock verification issues are non-optimized dex code
+                                                                                                    and incorrect proguard optimizations.
+2026-06-11 18:55:26.025  6724-6724  e.aimusicplayer         com.example.aimusicplayer            W  Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+2026-06-11 18:55:26.025  6724-6724  e.aimusicplayer         com.example.aimusicplayer            W  Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateList.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+2026-06-11 18:55:26.026  6724-6724  e.aimusicplayer         com.example.aimusicplayer            W  Method void androidx.compose.runtime.snapshots.SnapshotStateList.update(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+2026-06-11 18:55:26.026  6724-6724  e.aimusicplayer         com.example.aimusicplayer            W  Method void androidx.compose.runtime.snapshots.SnapshotStateList.update$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+2026-06-11 18:55:26.675  6724-6809  libc                    com.example.aimusicplayer            W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-06-11 18:55:26.682  6724-6809  HWUI                    com.example.aimusicplayer            W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2026-06-11 18:55:26.682  6724-6809  HWUI                    com.example.aimusicplayer            W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2026-06-11 18:55:26.736  6724-6807  libc                    com.example.aimusicplayer            W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-06-11 18:55:26.872  6724-6724  Choreographer           com.example.aimusicplayer            I  Skipped 47 frames!  The application may be doing too much work on its main thread.
+2026-06-11 18:55:26.910  6724-6810  HWUI                    com.example.aimusicplayer            I  Davey! duration=2064ms; Flags=0, FrameTimelineVsyncId=2095320, IntendedVsync=36823386837382, Vsync=36824036837356, InputEventId=0, HandleInputStart=36824044866500, AnimationStart=36824044887000, PerformTraversalsStart=36824634929700, DrawStart=36825309700700, FrameDeadline=36823953504026, FrameStartTime=36824044480500, FrameInterval=16666666, WorkloadTarget=16666666, AnimationTime=36824036837356, SyncQueued=36825343585000, SyncStart=36825347258700, IssueDrawCommandsStart=36825347389200, SwapBuffers=36825445120700, FrameCompleted=36825454860500, DequeueBufferDuration=15300, QueueBufferDuration=302300, GpuCompleted=36825454860500, SwapBuffersCompleted=36825446210300, DisplayPresentTime=0, CommandSubmissionCompleted=36825445120700, 
+2026-06-11 18:55:26.915  6724-6724  InsetsController        com.example.aimusicplayer            D  hide(ime())
+2026-06-11 18:55:26.916  6724-6724  ImeTracker              com.example.aimusicplayer            I  com.example.aimusicplayer:5058ff15: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-06-11 18:55:29.077  6724-6820  ProfileInstaller        com.example.aimusicplayer            D  Installing profile for com.example.aimusicplayer
+2026-06-11 18:55:34.587  6724-6729  e.aimusicplayer         com.example.aimusicplayer            I  Background concurrent mark compact GC freed 4326KB AllocSpace bytes, 3(96KB) LOS objects, 49% free, 6277KB/12MB, paused 785us,11.246ms total 30.259ms
+2026-06-11 18:55:34.782  6724-6805  libc                    com.example.aimusicplayer            W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-06-11 18:55:34.824  6724-6816  libc                    com.example.aimusicplayer            W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-06-11 18:55:34.938  6724-6814  libc                    com.example.aimusicplayer            W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-06-11 18:55:35.721  6724-6724  MusicPlayer             com.example.aimusicplayer            D  play() set currentSong: name=百万级装备听《Love Me Like You Do》- Ellie Goulding【Hi-Res】, metaDur=0s, pos=0, exoDur=0
+2026-06-11 18:55:35.911  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ currentSong collector: song=百万级装备听《Love Me Like You Do》- Ellie Goulding【Hi-Res】, metaDur=0s
+2026-06-11 18:55:35.912  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=0ms, bar=indeterminate, playing=false, pos=0ms
+2026-06-11 18:55:35.934  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=0ms, bar=indeterminate, playing=false, pos=0ms
+2026-06-11 18:55:36.057  6724-6729  e.aimusicplayer         com.example.aimusicplayer            I  NativeAlloc concurrent mark compact GC freed 928KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 7275KB/14MB, paused 1.414ms,12.143ms total 50.071ms
+2026-06-11 18:55:36.067  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=0ms, bar=indeterminate, playing=false, pos=0ms
+2026-06-11 18:55:36.507  6724-6797  DMCodecAdapterFactory   com.example.aimusicplayer            I  Creating an asynchronous MediaCodec adapter for track type audio
+2026-06-11 18:55:36.509  6724-6797  MediaCodec              com.example.aimusicplayer            I  Retry enabled for HDCP failure
+2026-06-11 18:55:36.604  6724-6797  ApexCodecsLazy          com.example.aimusicplayer            I  ApexCodecs loaded
+2026-06-11 18:55:36.604  6724-6797  Codec2Client            com.example.aimusicplayer            I  Available Codec2 services: "default" "software" "__ApexCodecs__"
+2026-06-11 18:55:36.611  6724-6797  e.aimusicplayer         com.example.aimusicplayer            W  Failed to query component store for system resources: 6
+2026-06-11 18:55:36.614  6724-6844  CCodec                  com.example.aimusicplayer            D  allocate(c2.android.aac.decoder)
+2026-06-11 18:55:36.621  6724-6844  CCodec                  com.example.aimusicplayer            I  setting up 'default' as default (vendor) store
+2026-06-11 18:55:36.641  6724-6844  CCodec                  com.example.aimusicplayer            I  Created component [c2.android.aac.decoder] for [c2.android.aac.decoder]
+2026-06-11 18:55:36.643  6724-6844  CCodecConfig            com.example.aimusicplayer            D  read media type: audio/mp4a-latm
+2026-06-11 18:55:36.647  6724-6844  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: algo.buffers.max-count.values
+2026-06-11 18:55:36.648  6724-6844  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: output.subscribed-indices.values
+2026-06-11 18:55:36.649  6724-6844  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: input.buffers.allocator-ids.values
+2026-06-11 18:55:36.652  6724-6844  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: output.buffers.allocator-ids.values
+2026-06-11 18:55:36.653  6724-6844  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: algo.buffers.allocator-ids.values
+2026-06-11 18:55:36.653  6724-6844  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: output.buffers.pool-ids.values
+2026-06-11 18:55:36.653  6724-6844  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: algo.buffers.pool-ids.values
+2026-06-11 18:55:36.659  6724-6844  CCodecConfig            com.example.aimusicplayer            I  query failed after returning 21 values (BAD_INDEX)
+2026-06-11 18:55:36.659  6724-6844  CCodecConfig            com.example.aimusicplayer            D  c2 config diff is Dict {
+                                                                                                      c2::u32 coded.aac-packaging.value = 0
+                                                                                                      c2::u32 coded.bitrate.value = 64000
+                                                                                                      c2::u32 coded.pl.level = 0
+                                                                                                      c2::u32 coded.pl.profile = 8192
+                                                                                                      c2::i32 coding.drc.album-mode.value = 0
+                                                                                                      c2::float coding.drc.attenuation-factor.value = 1
+                                                                                                      c2::float coding.drc.boost-factor.value = 1
+                                                                                                      c2::i32 coding.drc.compression-mode.value = 3
+                                                                                                      c2::i32 coding.drc.effect-type.value = 3
+                                                                                                      c2::float coding.drc.encoded-level.value = 0.25
+                                                                                                      c2::float coding.drc.reference-level.value = -16
+                                                                                                      c2::u32 input.buffers.max-size.value = 8192
+                                                                                                      c2::u32 input.delay.value = 0
+                                                                                                      string input.media-type.value = "audio/mp4a-latm"
+                                                                                                      c2::u32 output.delay.value = 2
+                                                                                                      c2::float output.drc.output-loudness.value = 0.25
+                                                                                                      c2::u32 output.large-frame.max-size = 0
+                                                                                                      c2::u32 output.large-frame.threshold-size = 0
+                                                                                                      string output.media-type.value = "audio/raw"
+                                                                                                      c2::u32 raw.channel-count.value = 1
+                                                                                                      c2::u32 raw.channel-mask.value = 0
+                                                                                                      c2::u32 raw.max-channel-count.value = 8
+                                                                                                      c2::u32 raw.sample-rate.value = 44100
+                                                                                                    }
+2026-06-11 18:55:36.671  6724-6844  MediaCodec              com.example.aimusicplayer            I  MediaCodec will operate in async mode
+2026-06-11 18:55:36.672  6724-6797  MediaCodec              com.example.aimusicplayer            I  media_quality service unavailable, skipping updatePictureProfile
+2026-06-11 18:55:36.673  6724-6844  CCodec                  com.example.aimusicplayer            D  [c2.android.aac.decoder] buffers are bound to CCodec for this session
+2026-06-11 18:55:36.674  6724-6844  CCodecConfig            com.example.aimusicplayer            D  no c2 equivalents for log-session-id
+2026-06-11 18:55:36.674  6724-6844  CCodecConfig            com.example.aimusicplayer            D  no c2 equivalents for importance
+2026-06-11 18:55:36.674  6724-6844  CCodecConfig            com.example.aimusicplayer            D  no c2 equivalents for flags
+2026-06-11 18:55:36.675  6724-6844  CCodecConfig            com.example.aimusicplayer            D  c2 config diff is   c2::u32 raw.channel-count.value = 2
+                                                                                                      c2::u32 raw.sample-rate.value = 48000
+2026-06-11 18:55:36.677  6724-6844  CCodec                  com.example.aimusicplayer            D  encoding statistics level = 0
+2026-06-11 18:55:36.677  6724-6844  CCodec                  com.example.aimusicplayer            D  setup formats input: AMessage(what = 0x00000000) = {
+                                                                                                      int32_t aac-drc-album-mode = 0
+                                                                                                      int32_t aac-drc-boost-level = 127
+                                                                                                      int32_t aac-drc-cut-level = 127
+                                                                                                      int32_t aac-drc-effect-type = 3
+                                                                                                      int32_t aac-encoded-target-level = -1
+                                                                                                      int32_t aac-max-output-channel_count = 8
+                                                                                                      int32_t aac-target-ref-level = 64
+                                                                                                      int32_t bitrate = 64000
+                                                                                                      int32_t channel-count = 2
+                                                                                                      int32_t channel-mask = 0
+                                                                                                      int32_t level = 0
+                                                                                                      int32_t max-input-size = 8192
+                                                                                                      int32_t max-output-channel-count = 8
+                                                                                                      string mime = "audio/mp4a-latm"
+                                                                                                      int32_t profile = 2
+                                                                                                      int32_t sample-rate = 48000
+                                                                                                    }
+2026-06-11 18:55:36.678  6724-6844  CCodec                  com.example.aimusicplayer            D  setup formats output: AMessage(what = 0x00000000) = {
+                                                                                                      int32_t aac-drc-album-mode = 0
+                                                                                                      int32_t aac-drc-boost-level = 127
+                                                                                                      int32_t aac-drc-cut-level = 127
+                                                                                                      int32_t aac-drc-effect-type = 3
+                                                                                                      int32_t aac-drc-output-loudness = -1
+                                                                                                      int32_t aac-encoded-target-level = -1
+                                                                                                      int32_t aac-max-output-channel_count = 8
+                                                                                                      int32_t aac-target-ref-level = 64
+                                                                                                      int32_t buffer-batch-max-output-size = 0
+                                                                                                      int32_t buffer-batch-threshold-output-size = 0
+                                                                                                      int32_t channel-count = 2
+                                                                                                      int32_t channel-mask = 0
+                                                                                                      int32_t max-output-channel-count = 8
+                                                                                                      string mime = "audio/raw"
+                                                                                                      int32_t sample-rate = 48000
+                                                                                                      int32_t android._config-pcm-encoding = 2
+                                                                                                    }
+2026-06-11 18:55:36.678  6724-6844  CCodecConfig            com.example.aimusicplayer            I  query failed after returning 21 values (BAD_INDEX)
+2026-06-11 18:55:36.679  6724-6844  e.aimusicplayer         com.example.aimusicplayer            E  Failed to query component interface for required system resources: 6
+2026-06-11 18:55:36.679  6724-6797  MediaCodec              com.example.aimusicplayer            D  keep callback message for reclaim
+2026-06-11 18:55:36.682  6724-6844  C2Store                 com.example.aimusicplayer            D  Using DMABUF Heaps
+2026-06-11 18:55:36.683  6724-6844  CCodecBufferChannel     com.example.aimusicplayer            D  [c2.android.aac.decoder#264] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+2026-06-11 18:55:36.693  6724-6844  CCodecBufferChannel     com.example.aimusicplayer            I  [c2.android.aac.decoder#264] Created output block pool with allocatorID 16 => poolID 164 - OK
+2026-06-11 18:55:36.694  6724-6844  CCodecBufferChannel     com.example.aimusicplayer            D  [c2.android.aac.decoder#264] Configured output block pool ids 164 => OK
+2026-06-11 18:55:36.710  6724-6844  e.aimusicplayer         com.example.aimusicplayer            W  AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. Use AIBinder_DeathRecipient_setOnUnlinked to manage the lifetime of the cookie. This will become an abort.
+2026-06-11 18:55:36.721  6724-6724  MusicPlayer             com.example.aimusicplayer            D  STATE_READY: dur=250358ms, song=百万级装备听《Love Me Like You Do》- Ellie Goulding【Hi-Res】, willSetPlaying=true
+2026-06-11 18:55:36.729  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ isPlaying collector: playing=true, pos=0ms, dur=250358ms
+2026-06-11 18:55:36.745  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=0ms
+2026-06-11 18:55:36.758  6724-6735  e.aimusicplayer         com.example.aimusicplayer            W  AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. Use AIBinder_DeathRecipient_setOnUnlinked to manage the lifetime of the cookie. This will become an abort.
+2026-06-11 18:55:36.760  6724-6844  CCodecConfig            com.example.aimusicplayer            D  c2 config diff is   c2::u32 raw.channel-mask.value = 12
+2026-06-11 18:55:36.761  6724-6844  CCodecBuffers           com.example.aimusicplayer            D  [c2.android.aac.decoder#264:1D-Output] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+                                                                                                      int32_t aac-drc-album-mode = 0
+                                                                                                      int32_t aac-drc-boost-level = 127
+                                                                                                      int32_t aac-drc-cut-level = 127
+                                                                                                      int32_t aac-drc-effect-type = 3
+                                                                                                      int32_t aac-drc-output-loudness = -1
+                                                                                                      int32_t aac-encoded-target-level = -1
+                                                                                                      int32_t aac-max-output-channel_count = 8
+                                                                                                      int32_t aac-target-ref-level = 64
+                                                                                                      int32_t buffer-batch-max-output-size = 0
+                                                                                                      int32_t buffer-batch-threshold-output-size = 0
+                                                                                                      int32_t channel-count = 2
+                                                                                                      int32_t channel-mask = 12
+                                                                                                      int32_t max-output-channel-count = 8
+                                                                                                      string mime = "audio/raw"
+                                                                                                      int32_t sample-rate = 48000
+                                                                                                      int32_t android._config-pcm-encoding = 2
+                                                                                                    }
+2026-06-11 18:55:36.793   665-2058  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.example.aimusicplayer
+2026-06-11 18:55:36.794   665-2058  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.example.aimusicplayer
+2026-06-11 18:55:36.875  6724-6797  AudioTrack              com.example.aimusicplayer            D  getTimestamp_l(91): device stall time corrected using current time 36835428019200
+2026-06-11 18:55:37.755  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=819ms dur=250358ms
+2026-06-11 18:55:37.755  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=819ms
+2026-06-11 18:55:38.757  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=1822ms dur=250358ms
+2026-06-11 18:55:38.758  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=1822ms
+2026-06-11 18:55:39.836  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=2872ms dur=250358ms
+2026-06-11 18:55:39.837  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=2872ms
+2026-06-11 18:55:40.843  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=3886ms dur=250358ms
+2026-06-11 18:55:40.843  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=3886ms
+2026-06-11 18:55:41.878  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=4918ms dur=250358ms
+2026-06-11 18:55:41.881  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=4918ms
+2026-06-11 18:55:42.058  6724-6844  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c437c8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 266/271 (recycle/alloc) - 5/270 (fetch/transfer)
+2026-06-11 18:55:42.894  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=5941ms dur=250358ms
+2026-06-11 18:55:42.895  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=5941ms
+2026-06-11 18:55:43.926  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=6977ms dur=250358ms
+2026-06-11 18:55:43.926  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=6977ms
+2026-06-11 18:55:44.960  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=8006ms dur=250358ms
+2026-06-11 18:55:44.960  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=8006ms
+2026-06-11 18:55:45.995  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=9046ms dur=250358ms
+2026-06-11 18:55:45.995  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=9046ms
+2026-06-11 18:55:47.044  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=10084ms dur=250358ms
+2026-06-11 18:55:47.044  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=10084ms
+2026-06-11 18:55:47.344  6724-6844  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c437c8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 513/518 (recycle/alloc) - 5/517 (fetch/transfer)
+2026-06-11 18:55:47.357  6724-6729  e.aimusicplayer         com.example.aimusicplayer            I  Background young concurrent mark compact GC freed 4086KB AllocSpace bytes, 6(144KB) LOS objects, 29% free, 10MB/14MB, paused 765us,9.441ms total 23.909ms
+2026-06-11 18:55:48.095  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=11137ms dur=250358ms
+2026-06-11 18:55:48.095  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=11137ms
+2026-06-11 18:55:49.134  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=12174ms dur=250358ms
+2026-06-11 18:55:49.134  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=12174ms
+2026-06-11 18:55:50.177  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=13210ms dur=250358ms
+2026-06-11 18:55:50.177  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=13210ms
+2026-06-11 18:55:51.209  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=14250ms dur=250358ms
+2026-06-11 18:55:51.210  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=14250ms
+2026-06-11 18:55:52.243  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=15288ms dur=250358ms
+2026-06-11 18:55:52.243  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=15288ms
+2026-06-11 18:55:52.579  6724-6844  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c437c8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 759/764 (recycle/alloc) - 5/763 (fetch/transfer)
+2026-06-11 18:55:53.277  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=16327ms dur=250358ms
+2026-06-11 18:55:53.277  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=16327ms
+2026-06-11 18:55:54.763  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=17824ms dur=250358ms
+2026-06-11 18:55:54.763  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=17824ms
+2026-06-11 18:55:55.811  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=18861ms dur=250358ms
+2026-06-11 18:55:55.811  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=18861ms
+2026-06-11 18:55:55.952  6724-6735  PipelineWatcher         com.example.aimusicplayer            D  onInputBufferReleased: frameIndex not found (921); ignored
+2026-06-11 18:55:56.860  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=19893ms dur=250358ms
+2026-06-11 18:55:56.860  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=19893ms
+2026-06-11 18:55:57.832  6724-6844  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c437c8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 1005/1010 (recycle/alloc) - 5/1009 (fetch/transfer)
+2026-06-11 18:55:57.897  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=20941ms dur=250358ms
+2026-06-11 18:55:57.897  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=20941ms
+2026-06-11 18:55:58.949  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=21980ms dur=250358ms
+2026-06-11 18:55:58.949  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=21980ms
+2026-06-11 18:55:59.419  6724-6729  e.aimusicplayer         com.example.aimusicplayer            I  Background young concurrent mark compact GC freed 4240KB AllocSpace bytes, 0(0B) LOS objects, 28% free, 10MB/14MB, paused 929us,7.804ms total 17.056ms
+2026-06-11 18:56:00.461  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=23512ms dur=250358ms
+2026-06-11 18:56:00.461  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=23512ms
+2026-06-11 18:56:01.497  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=24541ms dur=250358ms
+2026-06-11 18:56:01.497  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=24541ms
+2026-06-11 18:56:02.568  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=25613ms dur=250358ms
+2026-06-11 18:56:02.568  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=25613ms
+2026-06-11 18:56:03.001  6724-6844  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c437c8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 1248/1253 (recycle/alloc) - 5/1252 (fetch/transfer)
+2026-06-11 18:56:03.594  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=26643ms dur=250358ms
+2026-06-11 18:56:03.594  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=26643ms
+2026-06-11 18:56:04.601  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=27660ms dur=250358ms
+2026-06-11 18:56:04.601  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=27660ms
+2026-06-11 18:56:05.645  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=28684ms dur=250358ms
+2026-06-11 18:56:05.645  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=28684ms
+2026-06-11 18:56:06.680  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=29723ms dur=250358ms
+2026-06-11 18:56:06.680  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=29723ms
+2026-06-11 18:56:07.722  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=30771ms dur=250358ms
+2026-06-11 18:56:07.724  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=30771ms
+2026-06-11 18:56:08.403  6724-6844  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c437c8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 1501/1506 (recycle/alloc) - 5/1505 (fetch/transfer)
+2026-06-11 18:56:08.777  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=31822ms dur=250358ms
+2026-06-11 18:56:08.777  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=31822ms
+2026-06-11 18:56:09.801  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=32841ms dur=250358ms
+2026-06-11 18:56:09.801  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=32841ms
+2026-06-11 18:56:10.360  6724-6729  e.aimusicplayer         com.example.aimusicplayer            I  Background young concurrent mark compact GC freed 3632KB AllocSpace bytes, 0(0B) LOS objects, 25% free, 10MB/14MB, paused 1.196ms,10.051ms total 18.644ms
+2026-06-11 18:56:10.844  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=33887ms dur=250358ms
+2026-06-11 18:56:10.844  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=33887ms
+2026-06-11 18:56:11.926  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=34969ms dur=250358ms
+2026-06-11 18:56:11.926  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=34969ms
+2026-06-11 18:56:12.143  6724-6724  InsetsController        com.example.aimusicplayer            D  hide(ime())
+2026-06-11 18:56:12.143  6724-6724  ImeTracker              com.example.aimusicplayer            I  com.example.aimusicplayer:491fb35c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-06-11 18:56:12.981  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=36025ms dur=250358ms
+2026-06-11 18:56:12.981  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=true, pos=36025ms
+2026-06-11 18:56:13.548   665-1244  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.example.aimusicplayer
+2026-06-11 18:56:13.548   665-1257  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.example.aimusicplayer
+2026-06-11 18:56:13.549  6724-6724  MainViewModel           com.example.aimusicplayer            D  Player paused
+2026-06-11 18:56:13.585  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ isPlaying collector: playing=false, pos=36542ms, dur=250358ms
+2026-06-11 18:56:13.587  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=百万级装备听《Love Me Like , dur=250358ms, bar=determinate, playing=false, pos=36542ms
+2026-06-11 18:56:18.719  6724-6847  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c437c8 : 5(40960 size) total buffers - 0(0 size) used buffers - 1745/1750 (recycle/alloc) - 5/1750 (fetch/transfer)
+2026-06-11 18:56:18.719  6724-6847  AidlBufferPoolAcc       com.example.aimusicplayer            D  evictor expired: 1, evicted: 1
+2026-06-11 18:56:23.328  6724-6797  MediaCodec              com.example.aimusicplayer            D  keep callback message for reclaim
+2026-06-11 18:56:23.329  6724-6844  CCodecConfig            com.example.aimusicplayer            I  query failed after returning 21 values (BAD_INDEX)
+2026-06-11 18:56:23.329  6724-6724  MusicPlayer             com.example.aimusicplayer            D  play() set currentSong: name=【Hi-Res无损音质】马也_ Crabbit《海屿你》, metaDur=0s, pos=0, exoDur=0
+2026-06-11 18:56:23.334  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=0ms dur=0ms
+2026-06-11 18:56:23.334  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=0ms, bar=indeterminate, playing=false, pos=0ms
+2026-06-11 18:56:23.353  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ currentSong collector: song=【Hi-Res无损音质】马也_ Crabbit《海屿你》, metaDur=0s
+2026-06-11 18:56:23.355  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=0ms, bar=indeterminate, playing=false, pos=0ms
+2026-06-11 18:56:23.364  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=0ms, bar=indeterminate, playing=false, pos=0ms
+2026-06-11 18:56:23.445  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=0ms, bar=indeterminate, playing=false, pos=0ms
+2026-06-11 18:56:23.777  6724-6797  MediaCodec              com.example.aimusicplayer            D  keep callback message for reclaim
+2026-06-11 18:56:23.777  6724-6844  CCodecConfig            com.example.aimusicplayer            I  query failed after returning 21 values (BAD_INDEX)
+2026-06-11 18:56:23.785  6724-6844  CCodecBufferChannel     com.example.aimusicplayer            D  [c2.android.aac.decoder#264] MediaCodec discarded an unknown buffer
+2026-06-11 18:56:23.786  6724-6844  CCodecBufferChannel     com.example.aimusicplayer            D  [c2.android.aac.decoder#264] MediaCodec discarded an unknown buffer
+2026-06-11 18:56:23.786  6724-6844  CCodecBufferChannel     com.example.aimusicplayer            D  [c2.android.aac.decoder#264] MediaCodec discarded an unknown buffer
+2026-06-11 18:56:23.786  6724-6844  CCodecBufferChannel     com.example.aimusicplayer            D  [c2.android.aac.decoder#264] MediaCodec discarded an unknown buffer
+2026-06-11 18:56:23.786  6724-6866  CCodec                  com.example.aimusicplayer            D  hold CodecLooper(1) until release
+2026-06-11 18:56:23.788  6724-6797  DMCodecAdapterFactory   com.example.aimusicplayer            I  Creating an asynchronous MediaCodec adapter for track type audio
+2026-06-11 18:56:23.788  6724-6844  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c437c8 : 0(0 size) total buffers - 0(0 size) used buffers - 1750/1760 (recycle/alloc) - 5/1750 (fetch/transfer)
+2026-06-11 18:56:23.789  6724-6797  MediaCodec              com.example.aimusicplayer            I  Retry enabled for HDCP failure
+2026-06-11 18:56:23.795  6724-6797  e.aimusicplayer         com.example.aimusicplayer            W  Failed to query component store for system resources: 6
+2026-06-11 18:56:23.797  6724-6867  CCodec                  com.example.aimusicplayer            D  allocate(c2.android.aac.decoder)
+2026-06-11 18:56:23.803  6724-6867  CCodec                  com.example.aimusicplayer            I  setting up 'default' as default (vendor) store
+2026-06-11 18:56:23.808  6724-6867  e.aimusicplayer         com.example.aimusicplayer            W  AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. Use AIBinder_DeathRecipient_setOnUnlinked to manage the lifetime of the cookie. This will become an abort.
+2026-06-11 18:56:23.808  6724-6867  CCodec                  com.example.aimusicplayer            I  Created component [c2.android.aac.decoder] for [c2.android.aac.decoder]
+2026-06-11 18:56:23.808  6724-6867  CCodecConfig            com.example.aimusicplayer            D  read media type: audio/mp4a-latm
+2026-06-11 18:56:23.811  6724-6867  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: algo.buffers.max-count.values
+2026-06-11 18:56:23.812  6724-6867  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: output.subscribed-indices.values
+2026-06-11 18:56:23.814  6724-6867  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: input.buffers.allocator-ids.values
+2026-06-11 18:56:23.817  6724-6867  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: output.buffers.allocator-ids.values
+2026-06-11 18:56:23.818  6724-6867  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: algo.buffers.allocator-ids.values
+2026-06-11 18:56:23.823  6724-6867  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: output.buffers.pool-ids.values
+2026-06-11 18:56:23.827  6724-6867  ReflectedParamUpdater   com.example.aimusicplayer            D  extent() != 1 for single value type: algo.buffers.pool-ids.values
+2026-06-11 18:56:23.832  6724-6867  CCodecConfig            com.example.aimusicplayer            I  query failed after returning 21 values (BAD_INDEX)
+2026-06-11 18:56:23.832  6724-6867  CCodecConfig            com.example.aimusicplayer            D  c2 config diff is Dict {
+                                                                                                      c2::u32 coded.aac-packaging.value = 0
+                                                                                                      c2::u32 coded.bitrate.value = 64000
+                                                                                                      c2::u32 coded.pl.level = 0
+                                                                                                      c2::u32 coded.pl.profile = 8192
+                                                                                                      c2::i32 coding.drc.album-mode.value = 0
+                                                                                                      c2::float coding.drc.attenuation-factor.value = 1
+                                                                                                      c2::float coding.drc.boost-factor.value = 1
+                                                                                                      c2::i32 coding.drc.compression-mode.value = 3
+                                                                                                      c2::i32 coding.drc.effect-type.value = 3
+                                                                                                      c2::float coding.drc.encoded-level.value = 0.25
+                                                                                                      c2::float coding.drc.reference-level.value = -16
+                                                                                                      c2::u32 input.buffers.max-size.value = 8192
+                                                                                                      c2::u32 input.delay.value = 0
+                                                                                                      string input.media-type.value = "audio/mp4a-latm"
+                                                                                                      c2::u32 output.delay.value = 2
+                                                                                                      c2::float output.drc.output-loudness.value = 0.25
+                                                                                                      c2::u32 output.large-frame.max-size = 0
+                                                                                                      c2::u32 output.large-frame.threshold-size = 0
+                                                                                                      string output.media-type.value = "audio/raw"
+                                                                                                      c2::u32 raw.channel-count.value = 1
+                                                                                                      c2::u32 raw.channel-mask.value = 0
+                                                                                                      c2::u32 raw.max-channel-count.value = 8
+                                                                                                      c2::u32 raw.sample-rate.value = 44100
+                                                                                                    }
+2026-06-11 18:56:23.835  6724-6867  MediaCodec              com.example.aimusicplayer            I  MediaCodec will operate in async mode
+2026-06-11 18:56:23.836  6724-6797  MediaCodec              com.example.aimusicplayer            I  media_quality service unavailable, skipping updatePictureProfile
+2026-06-11 18:56:23.836  6724-6867  CCodec                  com.example.aimusicplayer            D  [c2.android.aac.decoder] buffers are bound to CCodec for this session
+2026-06-11 18:56:23.836  6724-6867  CCodecConfig            com.example.aimusicplayer            D  no c2 equivalents for log-session-id
+2026-06-11 18:56:23.836  6724-6867  CCodecConfig            com.example.aimusicplayer            D  no c2 equivalents for importance
+2026-06-11 18:56:23.836  6724-6867  CCodecConfig            com.example.aimusicplayer            D  no c2 equivalents for flags
+2026-06-11 18:56:23.837  6724-6867  CCodecConfig            com.example.aimusicplayer            D  c2 config diff is   c2::u32 raw.channel-count.value = 2
+2026-06-11 18:56:23.838  6724-6867  CCodec                  com.example.aimusicplayer            D  encoding statistics level = 0
+2026-06-11 18:56:23.838  6724-6867  CCodec                  com.example.aimusicplayer            D  setup formats input: AMessage(what = 0x00000000) = {
+                                                                                                      int32_t aac-drc-album-mode = 0
+                                                                                                      int32_t aac-drc-boost-level = 127
+                                                                                                      int32_t aac-drc-cut-level = 127
+                                                                                                      int32_t aac-drc-effect-type = 3
+                                                                                                      int32_t aac-encoded-target-level = -1
+                                                                                                      int32_t aac-max-output-channel_count = 8
+                                                                                                      int32_t aac-target-ref-level = 64
+                                                                                                      int32_t bitrate = 64000
+                                                                                                      int32_t channel-count = 2
+                                                                                                      int32_t channel-mask = 0
+                                                                                                      int32_t level = 0
+                                                                                                      int32_t max-input-size = 8192
+                                                                                                      int32_t max-output-channel-count = 8
+                                                                                                      string mime = "audio/mp4a-latm"
+                                                                                                      int32_t profile = 2
+                                                                                                      int32_t sample-rate = 44100
+                                                                                                    }
+2026-06-11 18:56:23.838  6724-6867  CCodec                  com.example.aimusicplayer            D  setup formats output: AMessage(what = 0x00000000) = {
+                                                                                                      int32_t aac-drc-album-mode = 0
+                                                                                                      int32_t aac-drc-boost-level = 127
+                                                                                                      int32_t aac-drc-cut-level = 127
+                                                                                                      int32_t aac-drc-effect-type = 3
+                                                                                                      int32_t aac-drc-output-loudness = -1
+                                                                                                      int32_t aac-encoded-target-level = -1
+                                                                                                      int32_t aac-max-output-channel_count = 8
+                                                                                                      int32_t aac-target-ref-level = 64
+                                                                                                      int32_t buffer-batch-max-output-size = 0
+                                                                                                      int32_t buffer-batch-threshold-output-size = 0
+                                                                                                      int32_t channel-count = 2
+                                                                                                      int32_t channel-mask = 0
+                                                                                                      int32_t max-output-channel-count = 8
+                                                                                                      string mime = "audio/raw"
+                                                                                                      int32_t sample-rate = 44100
+                                                                                                      int32_t android._config-pcm-encoding = 2
+                                                                                                    }
+2026-06-11 18:56:23.838  6724-6867  CCodecConfig            com.example.aimusicplayer            I  query failed after returning 21 values (BAD_INDEX)
+2026-06-11 18:56:23.838  6724-6867  e.aimusicplayer         com.example.aimusicplayer            E  Failed to query component interface for required system resources: 6
+2026-06-11 18:56:23.840  6724-6797  MediaCodec              com.example.aimusicplayer            D  keep callback message for reclaim
+2026-06-11 18:56:23.845  6724-6867  CCodecBufferChannel     com.example.aimusicplayer            D  [c2.android.aac.decoder#962] Created input block pool with allocatorID 16 => poolID 18 - OK (0)
+2026-06-11 18:56:23.851  6724-6867  CCodecBufferChannel     com.example.aimusicplayer            I  [c2.android.aac.decoder#962] Created output block pool with allocatorID 16 => poolID 166 - OK
+2026-06-11 18:56:23.852  6724-6867  CCodecBufferChannel     com.example.aimusicplayer            D  [c2.android.aac.decoder#962] Configured output block pool ids 166 => OK
+2026-06-11 18:56:23.856  6724-6867  e.aimusicplayer         com.example.aimusicplayer            W  AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. Use AIBinder_DeathRecipient_setOnUnlinked to manage the lifetime of the cookie. This will become an abort.
+2026-06-11 18:56:23.866  6724-6724  MusicPlayer             com.example.aimusicplayer            D  STATE_READY: dur=293918ms, song=【Hi-Res无损音质】马也_ Crabbit《海屿你》, willSetPlaying=true
+2026-06-11 18:56:23.870  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ isPlaying collector: playing=true, pos=0ms, dur=293918ms
+2026-06-11 18:56:23.874  6724-6852  e.aimusicplayer         com.example.aimusicplayer            W  AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. Use AIBinder_DeathRecipient_setOnUnlinked to manage the lifetime of the cookie. This will become an abort.
+2026-06-11 18:56:23.876  6724-6867  CCodecConfig            com.example.aimusicplayer            D  c2 config diff is   c2::u32 raw.channel-mask.value = 12
+2026-06-11 18:56:23.876  6724-6867  CCodecBuffers           com.example.aimusicplayer            D  [c2.android.aac.decoder#962:1D-Output] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+                                                                                                      int32_t aac-drc-album-mode = 0
+                                                                                                      int32_t aac-drc-boost-level = 127
+                                                                                                      int32_t aac-drc-cut-level = 127
+                                                                                                      int32_t aac-drc-effect-type = 3
+                                                                                                      int32_t aac-drc-output-loudness = -1
+                                                                                                      int32_t aac-encoded-target-level = -1
+                                                                                                      int32_t aac-max-output-channel_count = 8
+                                                                                                      int32_t aac-target-ref-level = 64
+                                                                                                      int32_t buffer-batch-max-output-size = 0
+                                                                                                      int32_t buffer-batch-threshold-output-size = 0
+                                                                                                      int32_t channel-count = 2
+                                                                                                      int32_t channel-mask = 12
+                                                                                                      int32_t max-output-channel-count = 8
+                                                                                                      string mime = "audio/raw"
+                                                                                                      int32_t sample-rate = 44100
+                                                                                                      int32_t android._config-pcm-encoding = 2
+                                                                                                    }
+2026-06-11 18:56:23.881  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=0ms
+2026-06-11 18:56:23.901   665-1257  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.example.aimusicplayer
+2026-06-11 18:56:23.901   665-1257  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.example.aimusicplayer
+2026-06-11 18:56:23.981  6724-6797  AudioTrack              com.example.aimusicplayer            D  getTimestamp_l(92): device stall time corrected using current time 36882534437400
+2026-06-11 18:56:24.918  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=880ms dur=293918ms
+2026-06-11 18:56:24.918  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=880ms
+2026-06-11 18:56:25.920  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=1873ms dur=293918ms
+2026-06-11 18:56:25.921  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=1873ms
+2026-06-11 18:56:26.986  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=2917ms dur=293918ms
+2026-06-11 18:56:26.986  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=2917ms
+2026-06-11 18:56:27.361  6724-6724  InsetsController        com.example.aimusicplayer            D  hide(ime())
+2026-06-11 18:56:27.362  6724-6724  ImeTracker              com.example.aimusicplayer            I  com.example.aimusicplayer:59b1aeaf: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-06-11 18:56:28.115  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=3990ms dur=293918ms
+2026-06-11 18:56:28.115  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=3990ms
+2026-06-11 18:56:28.331  6724-6847  AidlBufferPoolAcc       com.example.aimusicplayer            D  evictor expired: 1, evicted: 1
+2026-06-11 18:56:29.305  6724-6867  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c49448 : 5(40960 size) total buffers - 1(8192 size) used buffers - 251/256 (recycle/alloc) - 5/255 (fetch/transfer)
+2026-06-11 18:56:29.498  6724-6729  e.aimusicplayer         com.example.aimusicplayer            I  Background young concurrent mark compact GC freed 3124KB AllocSpace bytes, 8(224KB) LOS objects, 22% free, 10MB/14MB, paused 1.340ms,7.148ms total 22.379ms
+2026-06-11 18:56:29.603  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=5537ms dur=293918ms
+2026-06-11 18:56:29.603  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=5537ms
+2026-06-11 18:56:30.629  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=6577ms dur=293918ms
+2026-06-11 18:56:30.629  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=6577ms
+2026-06-11 18:56:31.669  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=7601ms dur=293918ms
+2026-06-11 18:56:31.669  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=7601ms
+2026-06-11 18:56:32.690  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=8635ms dur=293918ms
+2026-06-11 18:56:32.690  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=8635ms
+2026-06-11 18:56:33.726  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=9667ms dur=293918ms
+2026-06-11 18:56:33.726  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=9667ms
+2026-06-11 18:56:34.692  6724-6867  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c49448 : 5(40960 size) total buffers - 1(8192 size) used buffers - 482/487 (recycle/alloc) - 5/486 (fetch/transfer)
+2026-06-11 18:56:34.766  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=10699ms dur=293918ms
+2026-06-11 18:56:34.767  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=10699ms
+2026-06-11 18:56:35.811  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=11751ms dur=293918ms
+2026-06-11 18:56:35.811  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=11751ms
+2026-06-11 18:56:36.849  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=12785ms dur=293918ms
+2026-06-11 18:56:36.849  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=12785ms
+2026-06-11 18:56:37.875  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=13813ms dur=293918ms
+2026-06-11 18:56:37.875  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=13813ms
+2026-06-11 18:56:38.284  6724-6724  InsetsController        com.example.aimusicplayer            D  hide(ime())
+2026-06-11 18:56:38.284  6724-6724  ImeTracker              com.example.aimusicplayer            I  com.example.aimusicplayer:345b0ae: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-06-11 18:56:38.903  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=14836ms dur=293918ms
+2026-06-11 18:56:38.903  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=14836ms
+2026-06-11 18:56:39.933  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=15874ms dur=293918ms
+2026-06-11 18:56:39.933  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=15874ms
+2026-06-11 18:56:40.037  6724-6729  e.aimusicplayer         com.example.aimusicplayer            I  Background young concurrent mark compact GC freed 3328KB AllocSpace bytes, 0(0B) LOS objects, 22% free, 10MB/14MB, paused 1.163ms,7.987ms total 18.824ms
+2026-06-11 18:56:40.187  6724-6867  AidlBufferPool          com.example.aimusicplayer            D  bufferpool2 0x722679c49448 : 5(40960 size) total buffers - 1(8192 size) used buffers - 719/724 (recycle/alloc) - 5/723 (fetch/transfer)
+2026-06-11 18:56:41.483  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=17408ms dur=293918ms
+2026-06-11 18:56:41.483  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=17408ms
+2026-06-11 18:56:42.534  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=18471ms dur=293918ms
+2026-06-11 18:56:42.534  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=18471ms
+2026-06-11 18:56:43.574  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=19490ms dur=293918ms
+2026-06-11 18:56:43.574  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=19490ms
+2026-06-11 18:56:44.597  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▶ pos collector: notify (throttle passed), pos=20515ms dur=293918ms
+2026-06-11 18:56:44.597  6724-6724  SystemMediaController   com.example.aimusicplayer            D  ▓ updateNotification: song=【Hi-Res无损音质】马也_ Crab, dur=293918ms, bar=determinate, playing=true, pos=20515ms

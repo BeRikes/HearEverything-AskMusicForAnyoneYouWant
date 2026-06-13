@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(node *)",
+      "Bash(bash *)",
+      "Bash(./gradlew :shared:compileDebugKotlinAndroid)",
+      "WebFetch(domain:blog.csdn.net)",
+      "WebFetch(domain:github.com)",
+      "Bash(./gradlew assembleDebug)",
+      "Bash(./gradlew :androidApp:assembleDebug)",
+      "Bash(./gradlew :shared:compileReleaseKotlinAndroid)",
+      "Bash(./gradlew :androidApp:assembleDebug :shared:testDebugUnitTest)",
+      "Bash(./gradlew :shared:testDebugUnitTest)",
+      "Bash(./gradlew :shared:compileDebugKotlinAndroid :shared:testDebugUnitTest)",
+      "Bash(python scripts/query_behavior.py --help)",
+      "Bash(python -c ' *)",
+      "Bash(python scripts/query_behavior.py /tmp/empty_test.db)",
+      "Bash(E:/Program/Android/Sdk/platform-tools/adb.exe exec-out *)",
+      "Bash(python scripts/query_behavior.py D:/Download/claude_demo/HearEverything/behavior.db)"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+-- SongCache: stores cached song metadata
+CREATE TABLE SongCache (
+    id TEXT NOT NULL PRIMARY KEY,
+    songName TEXT NOT NULL,
+    artist TEXT,
+    platform TEXT NOT NULL,
+    audioUrl TEXT NOT NULL,
+    coverUrl TEXT,
+    lyrics TEXT,
+    quality TEXT NOT NULL,
+    expireTime INTEGER NOT NULL,
+    createTime INTEGER NOT NULL
+);
+
+-- FailedLookup: caches "song not found" results to avoid repeated failed network requests
+CREATE TABLE FailedLookup (
+    id TEXT NOT NULL PRIMARY KEY,
+    expireTime INTEGER NOT NULL
+);
+
+-- Query a cached song by id (only returns non-expired)
+selectById:
+SELECT * FROM SongCache
+WHERE id = ? AND expireTime > ?;
+
+-- Insert or replace a cached song
+insertOrReplace:
+INSERT OR REPLACE INTO SongCache(id, songName, artist, platform, audioUrl, coverUrl, lyrics, quality, expireTime, createTime)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+-- Delete all expired song caches
+deleteExpiredSongs:
+DELETE FROM SongCache
+WHERE expireTime <= ?;
+
+-- Delete a specific cached song by id
+deleteById:
+DELETE FROM SongCache
+WHERE id = ?;
+
+-- Count total cached (non-expired) songs
+countCached:
+SELECT COUNT(*) FROM SongCache
+WHERE expireTime > ?;
+
+-- Get all expired song ids (for cleanup logging)
+selectExpiredIds:
+SELECT id FROM SongCache
+WHERE expireTime <= ?;
+
+-- Check if a failed lookup exists and is still valid
+isFailedLookup:
+SELECT COUNT(*) FROM FailedLookup
+WHERE id = ? AND expireTime > ?;
+
+-- Insert or replace a failed lookup record
+insertFailedLookup:
+INSERT OR REPLACE INTO FailedLookup(id, expireTime)
+VALUES (?, ?);
+
+-- Delete all expired failed lookups
+deleteExpiredFailedLookups:
+DELETE FROM FailedLookup
+WHERE expireTime <= ?;

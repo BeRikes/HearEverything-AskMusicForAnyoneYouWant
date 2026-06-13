@@ -1,0 +1,35 @@
+# ───────────────────────────────────────────────────────────────────
+# HearEverything iOS — CocoaPods
+# ───────────────────────────────────────────────────────────────────
+
+platform :ios, '16.0'
+
+target 'iosApp' do
+  use_frameworks!
+
+  # ── SQLDelight Native Driver ──────────────────────────────────────
+  # Provides the NativeSqliteDriver for iOS SQLite access.
+  # Used by shared/src/iosMain for: DatabaseDriverFactory, DownloadManager (DownloadRecord table),
+  # CacheRepository (SongCache + FailedLookup tables).
+  #
+  # Version must match the Kotlin/Gradle dependency in shared/build.gradle.kts:
+  #   implementation("app.cash.sqldelight:native-driver:2.0.2")
+  pod 'SQLite.swift', '~> 0.14.1'
+
+  # ── (Optional) Ktor Darwin engine — already shipped in the Shared framework ──
+  # The shared module bundles io.ktor:ktor-client-darwin, so no additional
+  # CocoaPod is required for networking.
+
+end
+
+# ── Post-install: fix build settings for the Shared framework ──────
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '16.0'
+      # Needed for Kotlin/Native frameworks
+      config.build_settings['ENABLE_USER_SCRIPT_SANDBOXING'] = 'NO'
+    end
+  end
+end
