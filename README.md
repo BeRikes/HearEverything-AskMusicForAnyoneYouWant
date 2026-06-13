@@ -23,6 +23,33 @@
 - **📦 数据导出/导入** — 支持歌单和设置的 ZIP 备份还原
 - **⏰ 睡眠定时器** — 定时停止播放
 
+## 📸 界面预览
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="image/AI对话.jpg" width="200" alt="AI对话"/></td>
+      <td><img src="image/当前歌单.jpg" width="200" alt="当前歌单"/></td>
+      <td><img src="image/播放器界面.jpg" width="200" alt="播放器界面"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>AI 对话</b></td>
+      <td align="center"><b>当前歌单</b></td>
+      <td align="center"><b>播放器</b></td>
+    </tr>
+    <tr>
+      <td><img src="image/歌词界面.jpg" width="200" alt="歌词界面"/></td>
+      <td><img src="image/下载.jpg" width="200" alt="下载"/></td>
+      <td><img src="image/设置.jpg" width="200" alt="设置"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>歌词</b></td>
+      <td align="center"><b>下载</b></td>
+      <td align="center"><b>设置</b></td>
+    </tr>
+  </table>
+</div>
+
 ## 🏗 技术栈
 
 | 类别 | 技术 |
@@ -148,4 +175,3 @@ HearEverything/
 ---
 
 > 🤖 部分代码由 [Claude Code](https://claude.ai/code) 辅助生成
-"# HearEverything-AskMusic-AI-" 
